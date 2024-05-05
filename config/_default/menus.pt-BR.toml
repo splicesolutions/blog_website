@@ -1,0 +1,28 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Inicio"
+pageRef = "/"
+weight = 1
+
+[[main]]
+name = "Sobre"
+pageRef = "/about"
+weight = 2
+
+[[main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 3
+
+# footer menu
+[[footer]]
+name = "About"
+pageRef = "/about"
+weight = 1
+
+[[footer]]
+name = "Privacy Policy"
+pageRef = "/privacy-policy"
+weight = 3
