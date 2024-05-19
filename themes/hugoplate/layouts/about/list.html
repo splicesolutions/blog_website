@@ -1,11 +1,63 @@
 {{ define "main" }}
   <section class="section-sm">
     <div class="container">
-      <div class="row justify-center">
-        <div class="md:col-10 lg:col-7 text-center">
-          {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "mx-auto mb-6" "Size" "200x200") }}
-          <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+      <div class="row justify-center mb-4">
+        <div class="container-about">
+          <div class="item-title">
+            <h1>Splice Academy</h1>
+            <p>
+              Somos uma equipe de entusiastas apaixonados pela linguagem Go
+              (Golang), unidos por um objetivo comum: compartilhar nosso
+              conhecimento e experiência para ajudar você a alcançar seus
+              objetivos de programação. Fundada por programadores dedicados, nossa
+              empresa é impulsionada pela paixão por Go e pelo desejo de criar um
+              ambiente onde o aprendizado e a colaboração são valorizados acima de
+              tudo.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-center mb-4">
+        <div class="col-md-8 text-center">
+          <div class="container-about">
+            <div class="item-text">
+              {{ $gabrielImage := resources.Get "images/gabriel.png" }}
+              <img
+                src="{{ $gabrielImage.Permalink }}"
+                alt="{{ .Title }}"
+                style="max-width:500px; max-height:500px" />
+            </div>
+            <div class="item-text">
+              <h2>Gabriel Bussolo</h2>
+              <p>
+                Desenvolvedor apaixonado por Go e k8s, palestrante, mentor e
+                contribuidor open source. Trabalhou na maior empresa da America
+                Latina referencia em go, logo após sua talk na GopherCon
+                desbravou o Vale do Silício em uma startup que foi adquirida.
+                Viu que os desafios das equipes ao desenvolver em go, são os
+                mesmos dentro e fora do Brasil, por isso voltou decidido a mudar
+                esse cenário.
+              </p>
+            </div>
+            <div class="item-text">
+              <h2>Felipe Cooper</h2>
+              <p>
+                Desenvolvedor entusiasta focado em Go, fascinado pela elegância,
+                simplicidade e eficiência da linguagem. Software engineer na
+                principal empresa da América Latina referencia em go com mais de
+                8000 microserviços e 5000 deploys diários. Comprometido em
+                compartilhar esta experiência e mostrar na pratica este
+                conhecimento, de dev pra dev
+              </p>
+            </div>
+            <div class="item-text">
+              {{ $felipeImage := resources.Get "images/cooper.png" }}
+              <img
+                src="{{ $felipeImage.Permalink }}"
+                alt="{{ .Title }}"
+                style="max-width:500px; max-height:500px" />
+            </div>
+          </div>
         </div>
       </div>
     </div>

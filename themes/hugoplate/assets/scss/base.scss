@@ -57,3 +57,50 @@ code {
 blockquote > p {
   @apply my-0 #{!important};
 }
+
+.container-about {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.item-text {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  h2 {
+    margin-top: 0; 
+    text-align: center; 
+
+    }
+  img {
+    border-radius: 30px;
+  }
+}
+.item-title {
+  width: 1000px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 50px;
+  p {
+    font-size: 20px;
+    text-align: justify;
+  }
+  h2 {
+    margin-top: 0; /* Remove default margin */
+    text-align: center; /* Center the text horizontally */
+    }
+}

@@ -1,53 +1,28 @@
 ---
 # Banner
 banner:
-  title: "Chega de programar GOLANG como se fosse JAVA ou C#"
-  content: "Com o curso GO4DEV você vai aprender como o verdadeiro golang deve ser programado"
+  title: "Chega de ser um digitador de sintaxe em GOLANG"
+  content: "Criamos a Splice Academy para divulgar contéudo e engajar a comunidade de GO, trazendo contéudos mais técnicos da linguagem para você se especializar!"
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Quero ser um GOPHER"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "BE A GOPHER!"
+    link: "https://www.instagram.com/splice.academy/"
 
 # Features
 features:
-  - title: "What's Included in Hugoplate"
+  - title: "Porque GO?"
     image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
+    content: "Go é a linguagem moderna do Google que combina simplicidade com performance de alto nível. Descubra como Go pode impulsionar sua carreira e capacidade de desenvolvimento com nosso curso."
     bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
+      - "Sintaxe simples para aprendizado rápido."
+      - "Performance comparável ao C++."
+      - "Concorrência eficiente com goroutines."
+      - "Compilação ultra-rápida para desenvolvimento ágil."
+      - "Ecossistema rico e adoção crescente no mercado."
     button:
       enable: false
       label: "Get Started Now"
       link: "#"
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
-
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
 ---

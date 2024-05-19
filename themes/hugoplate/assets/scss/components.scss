@@ -72,3 +72,9 @@ main {
     @apply dark:hover:text-dark no-underline hover:text-white #{!important};
   }
 }
+
+.centered-text {
+  p {
+    text-align: justify;
+  }
+}
